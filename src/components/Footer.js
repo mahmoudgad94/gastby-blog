@@ -57,9 +57,9 @@ const Footer = () => (
 					</a>
 				</li>
 			</ul>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.keyplanz.com.eg">KeyPlanz</a>
+			© {new Date().getFullYear()}, Built with
+			{` `}
+			<a href="https://www.keyplanz.com.eg">KeyPlanz</a>
 		</div>
 	</div>
 );
