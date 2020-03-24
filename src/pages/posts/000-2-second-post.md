@@ -2,7 +2,6 @@
 title: 'Second Post - Lorem pariatur anim irure minim.'
 date: '2020-03-22'
 author: 'Mahmoud Gad'
-path: '/second-post'
 image: ../../images/post-02.jpg
 tags:
     - code

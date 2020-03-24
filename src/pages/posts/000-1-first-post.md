@@ -2,7 +2,6 @@
 title: 'First Post - Introduction'
 date: '2020-03-20'
 author: 'Mahmoud Gad'
-path: '/first-post'
 image: ../../images/post-01.jpg
 tags:
     - code

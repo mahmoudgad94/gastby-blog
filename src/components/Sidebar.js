@@ -31,12 +31,12 @@ const Sidebar = () => (
                     <div>
                         {data.allMarkdownRemark.edges.map(({node})=>(
                             <Card key={node.id}>
-                                <Link to={node.frontmatter.path}>
+                                <Link to={node.fields.slug}>
                                     <Img className="card-image-top" fluid={node.frontmatter.image.childImageSharp.fluid} />
                                 </Link>
                                 <CardBody>
                                     <CardTitle>
-                                        <Link to={node.frontmatter.path}>
+                                        <Link to={node.fields.slug}>
                                             {node.frontmatter.title}
                                         </Link>
                                     </CardTitle>
@@ -51,31 +51,32 @@ const Sidebar = () => (
         </Card>
 	</div>
 );
-
-const sidebarQuery =  graphql`
-    query sidebarQuery {
-        allMarkdownRemark(
-            sort:{fields:[frontmatter___date],order:DESC}
-            limit:3
-        )
-        {
-            edges{
-                node{
-                    id
-                    frontmatter{
-                        title
-                        path
-                        image{
-                            childImageSharp{
-                                fluid(maxWidth:300,maxHeight:200){
-                                    ...GatsbyImageSharpFluid
-                                }
-                            }
-                        }
-                    }
-                }
+const sidebarQuery = graphql`
+{
+  allMarkdownRemark(sort:{fields:[frontmatter___date],order:DESC},limit:3) {
+    edges {
+      node {
+        id
+        frontmatter {
+          title
+          date(formatString:"MMM Do YYYY")
+          author
+          tags
+          image{
+            childImageSharp{
+              fluid(maxWidth:600,maxHeight:400){
+                ...GatsbyImageSharpFluid
+              }
             }
+          }
         }
+        fields{
+          slug
+        }
+        excerpt
+      }
     }
+  }
+}
 `
 export default Sidebar;
