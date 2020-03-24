@@ -1,7 +1,7 @@
 ---
 title: 'Third Post - Dolor officia velit nostrud dolore eiusmod irur.'
 date: '2020-03-24'
-author: 'Mahmoud Gad'
+author: 'Ramy Mohamed'
 image: ../../images/post-03.jpg
 tags:
     - code

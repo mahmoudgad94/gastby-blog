@@ -1,7 +1,7 @@
 ---
 title: 'First Post - Introduction'
 date: '2020-03-20'
-author: 'Mahmoud Gad'
+author: 'Ramy Mohamed'
 image: ../../images/post-01.jpg
 tags:
     - code
