@@ -4,6 +4,10 @@ date: '2020-03-22'
 author: 'Mahmoud Gad'
 path: '/second-post'
 image: ../../images/post-02.jpg
+tags:
+    - code
+    - design
+    - whatever
 ---
 
 Eu aute sint nisi non ullamco enim anim do labore sunt aute est. Ex magna qui velit id proident ipsum ad commodo. Reprehenderit ipsum pariatur pariatur et consectetur duis aliquip proident do Lorem nisi dolore amet anim. Eu aliquip minim sint labore proident aliquip labore reprehenderit.
