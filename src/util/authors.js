@@ -1,7 +1,7 @@
 const authors = [
 	{
 		name: 'Ramy Mohamed',
-		imageUrl: 'author-01.jpg',
+		imageUrl: 'author-02.jpg',
 		bio: 'John has Quis quis esse commodo duis adipisicing cupidatat fugiat.',
 		facebook: 'https://www.facebook.com',
 		twitter: 'https://www.twitter.com',
@@ -9,8 +9,8 @@ const authors = [
 		linkdin: 'https://www.linkdin.com'
 	},
 	{
-		name: 'Omar Ahmed',
-		imageUrl: 'author-02.jpg',
+		name: 'Mona Ahmed',
+		imageUrl: 'author-04.jpg',
 		bio: 'Eiusmod reprehenderit laboris aute enim veniam labore commodo sit nostrud pariatur ad excepteur.',
 		facebook: 'https://www.facebook.com',
 		twitter: 'https://www.twitter.com',

@@ -1,7 +1,7 @@
 ---
 title: 'Second Post - Lorem pariatur anim irure minim.'
 date: '2020-03-22'
-author: 'Omar Ahmed'
+author: 'Mona Ahmed'
 image: ../../images/post-02.jpg
 tags:
     - code
