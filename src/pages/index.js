@@ -6,7 +6,7 @@ import Post from '../components/Post';
 
 const IndexPage = () => (
 	<Layout pageTitle="Home">
-		<SEO title="KEYPLANZ BLOG" keywords={[ 'blog', 'article', 'hmm' ]} />
+		<SEO title="Gad BLOG" keywords={[ 'blog', 'article', 'hmm' ]} />
 		<StaticQuery
 			query={indexQuery}
 			render={(data) => {

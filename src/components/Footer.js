@@ -59,7 +59,7 @@ const Footer = () => (
 			</ul>
 			© {new Date().getFullYear()}, Built with
 			{` `}
-			<a href="https://www.keyplanz.com.eg">KeyPlanz</a>
+			<a href="https://www.mahmoudgad.com">MahmoudGad</a>
 		</div>
 	</div>
 );
