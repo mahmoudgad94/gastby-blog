@@ -3,6 +3,7 @@ title: 'Third Post - Dolor officia velit nostrud dolore eiusmod irur.'
 date: '2020-03-24'
 author: 'Mahmoud Gad'
 path: '/third-post'
+image: ../../images/post-03.jpg
 ---
 
 Eu consectetur culpa officia deserunt mollit dolor amet Lorem cillum labore sint laborum occaecat quis. Eiusmod cillum enim Lorem excepteur consequat. Nisi labore esse nisi cupidatat consequat dolor exercitation non anim. Sint sunt adipisicing ea et consectetur sint qui ex eu ullamco. Aute proident id est cillum eu. Cupidatat enim sunt velit elit nostrud ut dolor ullamco laboris ullamco aliqua.
