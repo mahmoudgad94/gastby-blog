@@ -7,12 +7,21 @@ import Img from 'gatsby-image';
 import { slugify } from '../util/utilityFunction';
 import authors from '../util/authors';
 
+import { DiscussionEmbed } from 'disqus-react';
+
 const SinglePost = ({ data, pageContext }) => {
 	console.log(data);
 	const post = data.markdownRemark.frontmatter;
 	const author = authors.find((x) => x.name === post.author);
 	const baseUrl = 'https://priceless-rosalind-2ed0ce.netlify.com/';
-	const baseUrlForPost = baseUrl + pageContext.slug;
+  const baseUrlForPost = baseUrl + pageContext.slug;
+  const disqusShortname = "demo-gatsby"
+  const disqusConfig = {
+    url: baseUrlForPost,
+    identifier: data.markdownRemark.id,
+    title: post.title,
+  }
+
 	return (
 		<Layout pageTitle={post.title} postAuthor={author} authorImageFluid={data.file.childImageSharp.fluid}>
 			<SEO title={post.title} />
@@ -92,6 +101,7 @@ const SinglePost = ({ data, pageContext }) => {
 					</li>
 				</ul>
 			</div>
+      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 		</Layout>
 	);
 };
