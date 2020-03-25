@@ -5,7 +5,6 @@ author: 'Mona Ahmed'
 image: ../../images/post-02.jpg
 tags:
     - code
-    - design
     - whatever
 ---
 

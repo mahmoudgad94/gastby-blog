@@ -6,7 +6,7 @@ image: ../../images/post-03.jpg
 tags:
     - code
     - design
-    - whatever
+    - books
 ---
 
 Eu consectetur culpa officia deserunt mollit dolor amet Lorem cillum labore sint laborum occaecat quis. Eiusmod cillum enim Lorem excepteur consequat. Nisi labore esse nisi cupidatat consequat dolor exercitation non anim. Sint sunt adipisicing ea et consectetur sint qui ex eu ullamco. Aute proident id est cillum eu. Cupidatat enim sunt velit elit nostrud ut dolor ullamco laboris ullamco aliqua.
